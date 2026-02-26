@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Block access to sensitive files
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /public/assets/
+Disallow: /*.json$
+
+# Sitemap
+Sitemap: https://www.vtplbihar.com/sitemap.xml
